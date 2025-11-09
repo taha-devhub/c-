@@ -4,16 +4,14 @@ using namespace std;
 
 int main()
 {
-    int a;
-             while(true)
+    int n;
+             cout<<"enter number:"<<endl;
+             cin>>n;
+             for(int i=1;i<=n;i++)
              {
-                 cout<<"enter number:";
-                 cin>>a;
-                 if(a%2==0)
-                    cout<<"even\n";
-                 else
-                    cout<<"odd\n";
-                 if(a==-1)
-                    break;}
+                 if(i%2!=0)
+                    continue;
+                 cout<<i<<endl;
+             }
     return 0;
 }
