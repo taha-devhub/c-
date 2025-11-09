@@ -4,20 +4,21 @@ using namespace std;
 
 int main()
 {
-    int m;
-int num[3]={12,8,9};
-for(int i=0;i<3;i++)
-    cout<<num[i]<<endl;
+   int n;
+            cout<<"tadad:";
+            cin>>n;
+            string lname[n];
+            string fname[n];
 
-    int sizen;
+            for(int i=0;i<n;i++)
+             {cout<<"enter first name: "<<endl;
+            cin>>fname[i];}
 
-    cout<<"enter number:";
-    cin>>sizen;
-int num[sizen];
-    for(int i=0;i<sizen;i++)
-    cin>>num[i];
+            for(int i=0;i<n;i++)
+             {cout<<"enter last name: "<<endl;
+            cin>>lname[i];}
 
-    for(int i=0;i<sizen;i++)
-        cout<<num[i]<<endl;
+             for(int i=0;i<n;i++)
+                {cout<<fname[i]<<" "<<lname[i]<<endl;}
     return 0;
 }
