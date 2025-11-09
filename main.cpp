@@ -4,31 +4,14 @@ using namespace std;
 
 int main()
 {
-   int n,tedad=0,sum=0;
+int a=0,b=0;
+             cout<<"enter number 1:";
+             cin>>a;
+             for(int x=1;x<=a;x++)
+                if(a%x==0){
+                        b=b+1;
 
-             cin>>n;
-
-             for(int a=1;a<=n;a++)
-                             if(n%a==0)
-             {
-                 tedad++;
-                 sum+=a;
-                 cout<<tedad<<")"<<a<<endl;
-
-             }
-             cout<<"tedad adad="<<tedad<<endl;
-             cout<<"magmooe="<<sum;
-
-
-             int n;
-             cout<<"enter number 1:"<<endl;
-             cin>>n;
-             int m;
-             cout<<"enter number 2:"<<endl;
-             cin>>m;
-             int miny=min(n,m);
-             int maxy=max(n,m);
-             for(int c=miny;c<maxy;c++)
-                cout<<c<<endl;
+                cout<<"maghsom alayh"<<a<<"="<<x<<endl;
+                cout<<"tedad="<<b;}
     return 0;
 }
