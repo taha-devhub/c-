@@ -4,20 +4,17 @@ using namespace std;
 
 int main()
 {
-    int num;
-             int sum=0;
-             int s=0;
+   int n,tedad=0;
 
-             cout<<"enter number:";
-             cin>>num;
+             cin>>n;
 
-             cout<<"magsom elayh"<<num<<"="<<endl;
-             for(int x=1;x<=num;x++)
-                if(num % x==0){
-                sum=sum+1;
-                s=s+x;
-             cout<<x<<endl;}
-             cout<<"tedad="<<sum<<endl;
-             cout<<"sum magsom elayh="<<s;
+             for(int a=1;a<=n;a++)
+                             if(n%a==0)
+             {
+                 tedad++;
+                 cout<<tedad<<")"<<a<<endl;
+
+             }
+             cout<<"tedad adad="<<tedad;
     return 0;
 }
