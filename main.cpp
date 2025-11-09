@@ -4,17 +4,16 @@ using namespace std;
 
 int main()
 {
-    int a;
-                int b=0;
-                cout<<"enter number:";
-                cin>>a;
+    int num;
 
-                for(int x=1;x<=a;x++)
-                    if(a%x==0){
-                    b=b+1;}
-                    if(b==2)
-                        cout<<"number one";
-                    else
-                        cout<<"morakab";
+           cout<<"enter number:";
+           cin>>num;
+
+           int a=1;
+           while(a<=num)
+           {
+               cout<<num<<endl;
+               num--;
+           }
     return 0;
 }
