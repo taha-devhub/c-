@@ -3,16 +3,21 @@
 using namespace std;
 
 int main()
+{
+    float a , b;
 
-{int number;
-     cout<<"enter your number";
-     cin>>number;
-      if(number>0)
-        cout<<"posetive";
-      else if(number< 0)
-        cout<<"negetive";
-      else if(number==0)
-        cout<<"zero";
+        cout<<"enter your number 1:";
+        cin>>a;
+        cout<<"number 2:";
+        cin>>b;
 
+
+        cout<<a<<"*"<<b<< "=" <<a*b <<endl;
+
+        cout<<a<<"-"<<b<< "=" << a-b <<endl;
+
+        cout<<a<<"/"<<b<< "=" << a/b <<endl;
+
+        cout<<a<<"+"<<b<< "=" << a+b <<endl;
     return 0;
 }
