@@ -4,12 +4,14 @@ using namespace std;
 
 int main()
 {
-    int num[3];
-
-    for(int i=0;i<3;i++)
-        cin>>num[i];
-
-    for(int i=0;i<3;i++)
-        cout<<num[i]<<endl;
+    int num,tedad=0,mx=-1;
+while(tedad<5){
+    cout<<"enter number:"<<endl;
+    cin>>num;
+    if(num>mx)
+        mx=num;
+    tedad++;
+}
+cout<<"maximum is:"<<mx;
     return 0;
 }
