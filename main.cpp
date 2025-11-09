@@ -4,26 +4,10 @@ using namespace std;
 
 int main()
 {
-    int a;
-        cout<<"enter your number";
-        cin>>a;
+    for(int a=0;a<=5;a++)
+            cout<<a<<endl;
 
-
-        if(a==1)
-            cout<<"sautaray";
-        else if(a==2)
-            cout<<"sunday";
-        else if(a==3)
-            cout<<"monday";
-        else if(a==4)
-            cout<<"tuseday";
-        else if(a==5)
-            cout<<"wendsday";
-        else if(a==6)
-            cout<<"therthday";
-        else if(a==7)
-            cout<<"friday";
-        else if(a<8 , a<0)
-            cout<<"out of the week";
+            for(int a=0;;a=a+1)
+                cout<<"taha"<<"\t";
     return 0;
 }
