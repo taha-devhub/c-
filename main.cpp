@@ -4,14 +4,12 @@ using namespace std;
 
 int main()
 {
-    int n;
-             cout<<"enter number:"<<endl;
-             cin>>n;
-             for(int i=1;i<=n;i++)
-             {
-                 if(i%2!=0)
-                    continue;
-                 cout<<i<<endl;
-             }
+    int num[3];
+
+    for(int i=0;i<3;i++)
+        cin>>num[i];
+
+    for(int i=0;i<3;i++)
+        cout<<num[i]<<endl;
     return 0;
 }
