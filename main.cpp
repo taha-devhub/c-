@@ -3,18 +3,23 @@
 using namespace std;
 
 int main()
-{int a,b=0;
-           cout<<"enter number:";
-           cin>>a;
-           for(int x=1;x<=a;x++)
-            if(a%x==0)
-            b++;
+{
+    int tedad=0;
 
-           cout<<"number="<<b;
-           if(b==2)
-            cout<<"\n number is prime";
-           else
-            cout<<"\n number is not prime";
+           for(int a=1;a<=1000;a+=2)
+           {
+               tedad++;
+               cout<<tedad<<") "<<a<<endl;
+           }
 
+
+
+
+           for(int a=1;a<=19;a++)
+            {
+                for(int b=1;b<=a;b++)
+            cout<<"*";
+           cout<<endl;
+            }
     return 0;
 }
