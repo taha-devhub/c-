@@ -4,10 +4,13 @@ using namespace std;
 
 int main()
 {
-    for(int a=0;a<=5;a++)
-            cout<<a<<endl;
+    int a;
+                int sum=0;
+                cin>>a;
+                for(int b=1;b<a;b++)
 
-            for(int a=0;;a=a+1)
-                cout<<"taha"<<"\t";
+                  sum=sum+a;
+
+                    cout<<"sum="<<sum;
     return 0;
 }
