@@ -4,20 +4,26 @@ using namespace std;
 
 int main()
 {
-    float a , b;
-
-        cout<<"enter your number 1:";
+    int a;
+        cout<<"enter your number";
         cin>>a;
-        cout<<"number 2:";
-        cin>>b;
 
 
-        cout<<a<<"*"<<b<< "=" <<a*b <<endl;
-
-        cout<<a<<"-"<<b<< "=" << a-b <<endl;
-
-        cout<<a<<"/"<<b<< "=" << a/b <<endl;
-
-        cout<<a<<"+"<<b<< "=" << a+b <<endl;
+        if(a==1)
+            cout<<"sautaray";
+        else if(a==2)
+            cout<<"sunday";
+        else if(a==3)
+            cout<<"monday";
+        else if(a==4)
+            cout<<"tuseday";
+        else if(a==5)
+            cout<<"wendsday";
+        else if(a==6)
+            cout<<"therthday";
+        else if(a==7)
+            cout<<"friday";
+        else if(a<8 , a<0)
+            cout<<"out of the week";
     return 0;
 }
